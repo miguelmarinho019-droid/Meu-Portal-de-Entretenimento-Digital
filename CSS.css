@@ -8,14 +8,14 @@ width: 100%
 
 /* coluna esquerda*/
 .esq{
-    width: 50%;
+    flex: 1;
     text-align:center;
     background-color: rgba(114, 23, 23, 0.513);
 }
 
 /*Coluna central*/
 .centro{
-    width: 50%;
+    flex: 1;
     text-align:center;
     background-color: rgb(17, 121, 121);
 }
@@ -23,7 +23,7 @@ width: 100%
 
 /* coluna direita*/
 .dir{
-    width: 50%;
+    flex: 1;
     text-align:center;
     background-color: rgba(0, 17, 123, 0.502);
 }
@@ -31,4 +31,9 @@ width: 100%
 /*fonte*/
 .fonte{
     color:white
+}
+
+/*Id para div principal*/
+#portal {
+    width: 100%;
 }
